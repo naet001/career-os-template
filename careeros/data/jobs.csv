@@ -1,0 +1,23 @@
+# CareerOS - Job Opportunities
+#
+# This file tracks job opportunities you're interested in or have applied to.
+#
+# Column Descriptions:
+# - id: Unique identifier (format: [company-id]-[job-title-slug], e.g., "google-senior-software-engineer")
+# - company_id: Reference to company id from companies.csv
+# - role: Job title
+# - url: Job posting URL
+# - source: where the job was found (linkedin/indeed/company-website/referral/other)
+# - date_found: Date when the job was discovered (YYYY-MM-DD)
+# - status: not-applied/applied/interviewing/offer/rejected/closed
+# - application_date: Date when application was submitted (YYYY-MM-DD, if applicable)
+# - deadline: Application deadline (YYYY-MM-DD, if known)
+# - contact: Hiring manager or recruiter name (if known)
+# - contact_email: Hiring manager or recruiter email (if known)
+# - notes: Additional information (salary range, benefits, requirements, etc.)
+#
+# Example:
+# id,company_id,role,url,source,date_found,status,application_date,deadline,contact,contact_email,notes
+# google-senior-swe,google,Senior Software Engineer,https://careers.google.com/...,company-website,2026-11-10,applied,2026-11-11,2026-12-01,Jane Smith,jane@google.com,Salary: $150k-$200k
+
+id,company_id,role,url,source,date_found,status,application_date,deadline,contact,contact_email,notes

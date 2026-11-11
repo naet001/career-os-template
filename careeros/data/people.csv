@@ -1,0 +1,22 @@
+# CareerOS - People Database
+#
+# This file tracks people you want to connect with for networking and opportunities.
+#
+# Column Descriptions:
+# - id: Unique identifier (format: [company-id]-[first-name]-[last-name], e.g., "google-john-doe")
+# - name: Full name
+# - role: Current job title
+# - company: Current company (use company id from companies.csv)
+# - linkedin: LinkedIn profile URL
+# - category: founder/ceo/cto/hr/recruiter/hiring-manager/engineer/alumni/other
+# - location: Location (City, Country)
+# - relationship: none/connected/requested/ignored (current relationship status with you)
+# - notes: Background, skills, connection points, recent activity
+# - source: Where you found this information (e.g., "LinkedIn", "Company website")
+# - researched_date: Date of last research (YYYY-MM-DD)
+#
+# Example:
+# id,name,role,company,linkedin,category,location,relationship,notes,source,researched_date
+# google-john-doe,John Doe,Engineering Manager,google,https://linkedin.com/in/johndoe,engineer,Mountain View, USA,none,10 years at Google, expert in distributed systems,Company website,2026-11-10
+
+id,name,role,company,linkedin,category,location,relationship,notes,source,researched_date

@@ -1,0 +1,23 @@
+# CareerOS - Companies Database
+# 
+# This file tracks companies you're targeting for outreach and job applications.
+# 
+# Column Descriptions:
+# - id: Unique identifier (lowercase, hyphens for spaces, e.g., "google", "acme-corp")
+# - name: Company name
+# - website: Company website URL
+# - industry: Primary industry (e.g., "SaaS", "Fintech", "Healthcare")
+# - location: Primary location (City, Country)
+# - size: Number of employees or range (e.g., "50-200", "1000+")
+# - founded: Founding year (if known)
+# - priority: High/Medium/Low (based on your targets)
+# - hiring: Yes/No/Unknown (are they currently hiring for relevant roles?)
+# - notes: Additional information (products, culture, recent news, etc.)
+# - source: Where you found this information (e.g., "LinkedIn", "Company website")
+# - researched_date: Date of last research (YYYY-MM-DD)
+#
+# Example:
+# id,name,website,industry,location,size,founded,priority,hiring,notes,source,researched_date
+# google,Google,https://www.google.com,Technology,Mountain View, USA,100000+,1998,High,Yes,Search engine and advertising giant,Company website,2026-11-10
+
+id,name,website,industry,location,size,founded,priority,hiring,notes,source,researched_date

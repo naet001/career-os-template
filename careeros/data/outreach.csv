@@ -1,0 +1,21 @@
+# CareerOS - Outreach History
+#
+# This file tracks all your outreach activities and follow-ups.
+#
+# Column Descriptions:
+# - id: Unique identifier (format: [date]-[person-id], e.g., "2026-11-11-google-john-doe")
+# - contact_id: Reference to person id from people.csv
+# - date_contacted: Date of initial contact (YYYY-MM-DD)
+# - message: The message that was sent (or summary if very long)
+# - channel: linkedin/email/twitter/other (where the message was sent)
+# - response: none/positive/negative/neutral (type of response received)
+# - response_date: Date of response (YYYY-MM-DD, if any)
+# - follow_up_date: Date for next follow-up (YYYY-MM-DD, if applicable)
+# - status: pending/responded/ignored/closed (current status)
+# - notes: Additional context (e.g., conversation summary, next steps)
+#
+# Example:
+# id,contact_id,date_contacted,message,channel,response,response_date,follow_up_date,status,notes
+# 2026-11-11-google-john-doe,google-john-doe,2026-11-11,"Hi John, I noticed your work on...",linkedin,positive,2026-11-12,2026-11-18,responded,Scheduled call for Nov 18
+
+id,contact_id,date_contacted,message,channel,response,response_date,follow_up_date,status,notes

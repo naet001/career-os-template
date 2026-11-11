@@ -1,0 +1,20 @@
+# CareerOS - Study Materials
+#
+# This file tracks your interview preparation study topics and questions.
+#
+# Column Descriptions:
+# - id: Unique identifier (format: [job-id]-[topic-slug] or [topic-slug], e.g., "google-senior-swe-algorithms" or "behavioral-questions")
+# - job_id: Reference to job id from jobs.csv (if applicable, otherwise leave empty)
+# - topic: Study topic (e.g., "Algorithms", "System Design", "Behavioral Questions")
+# - question: Specific question or topic (e.g., "Reverse a linked list", "Tell me about yourself")
+# - answer: Your answer or notes (keep concise, use records/jobs/ for detailed answers)
+# - confidence: Your confidence level (1-5: 1=Not confident, 5=Very confident)
+# - last_reviewed: Date when this topic was last reviewed (YYYY-MM-DD)
+# - status: not-started/learning/practiced/mastered
+# - notes: Additional notes, feedback, or resources
+#
+# Example:
+# id,job_id,topic,question,answer,confidence,last_reviewed,status,notes
+# google-senior-swe-algorithms,google-senior-swe,Algorithms,Reverse a linked list,"Iterative approach with O(n) time",4,2026-11-10,practiced,Need to practice recursive approach
+
+id,job_id,topic,question,answer,confidence,last_reviewed,status,notes
